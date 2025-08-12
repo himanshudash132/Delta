@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    text-decoration: wavy red underline;
+    letter-spacing: normal;
+}
+h3{
+    text-align: start;
+    text-decoration: double blue line-through;
+}
+p{
+    text-align: justify;
+    font-weight: 100;
+    line-height: normal;
+}
+h2{
+    font-weight: normal;
+    text-decoration: green overline;
+}
+a{
+    text-decoration: none;
+}
