@@ -1,0 +1,63 @@
+/* box model */
+
+/* height & width */
+
+/* Border */
+/* Border-width */
+/* Border-style */
+/* Border-color */
+
+/* Border-left */
+/* Border-right */
+/* Border-top */
+/* Border-bottom */
+
+/* Border radius */
+
+/* Padding Property */
+
+/* Margin Property */
+
+div{
+    height: 200px;
+    width: 300px;
+    background-color: pink;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+    border: 5px solid black;
+    /* border-left-color: blue;
+    border-left-style: dashed; */
+    /* border-right-color: blue;
+    border-right-style: dashed; */
+    /* border-top: 5px dashed blue; */
+    border-radius: 10px;
+    /* border-top-right-radius: 50%; */
+    padding: 10px;
+}
+
+h1{
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color: green; */
+    border: 2px dashed green;
+    border-radius: 15%;
+}
+
+
+
+
+
+
+
+/* Practice Qs */
+
+/* Display Property */
+
+/* Conclusions (block and inline) */
+
+/* Inline-block */
+
+/* Relative Units */
+
+/* Em & Rem in Units */

@@ -1,18 +1,128 @@
+/* style.css */
+/* Universal selector */
 *{
     font-family: 'Courier New';
 }
 
+/* Element selector */ 
 h1,h3{
-    color: #b92b27;
+    color: #b92b27 !important;
 }
+
+/* Id selector */
 #login{
         background-color: white;
 
 }
+
+/* ID selector */
 #signup{
         background-color: #b92b27;
         color: white;
 }
+
+/* class selector */
 .upvote{
     background-color: green;
+}
+
+/* decendant selector */
+.post a{
+    color: purple;
+    background-color: yellow;
+    
+}
+
+nav ul li a{
+    color: hotpink;
+}
+
+/* adjacent sibling selector */
+p + h3{
+    text-decoration: blue underline;
+}
+
+/* adjacent sibling selector */
+.upvote + button{
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+/* child combinator */
+div > input{
+    background-color: darksalmon;
+}
+
+/* Attribute Selector */
+input[type = "text"]{
+    color: red;
+}
+
+input[type = "password"]{
+    color: green;
+}
+
+input[type]{
+    background-color: ghostwhite;
+}
+
+/* pseudo class */
+/* hover */
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    text-decoration: none;
+}
+/* active */
+button:active{
+    background-color: pink;
+    color: black;
+}
+p:active{
+    color: green;
+    font-weight: bold;
+}
+/* checked */
+input[type = "radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+/* nth-of-type */
+/* .post:nth-last-of-type(2n){
+    background-color: hotpink;
+} */
+div:nth-of-type(2n+10){
+    background-color: hotpink;
+}
+
+
+/* practice sol */
+
+div[id = "myid"] p{
+    color: green;
+}
+
+
+/* pseudo Elements */
+/*  ::first-letter */
+h1::first-letter{
+    color: black;
+}
+/*  ::first-line */
+p::first-line{
+    color: purple;
+}
+/*  ::selection */
+p::selection{
+    background-color: rgb(12, 228, 12);
+}
+
+/* CSS:Cascading Stylesheets */
+h3{
+    background-color: blue;
+}
+h3{
+    background-color: yellow;
 }
