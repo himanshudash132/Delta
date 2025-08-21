@@ -1,0 +1,17 @@
+/* background-image  */
+   /* background-image: url("bg-img.jpg");
+    background-size: contain; 
+    background-size: cover; 
+    background-size: auto;  */
+div {
+    width : 400px;
+    height:200px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url("bg-img.jpg");
+    color: white;
+    /* background-size: contain;  */
+    background-size: cover; 
+    /* background-size: auto;  */
+}
+
