@@ -1,0 +1,34 @@
+/* Display Property */
+    /* Display block */
+    /* Display inline */
+    /* Display inline-block */
+    /* Display none */
+    /* Display flex */
+    /* Display grid */
+
+    /* h2{
+        display: inline;
+        background-color: pink;
+    }
+    span{
+        display: block;
+        background-color: yellowgreen;
+    } */
+    span{
+        background-color: lime;
+        border: 2px solid black;
+        height: 100px;   /* not applied */
+        width: 200px;     /* not applied */
+        padding: 100px;   /* left right only */ 
+        margin: 20px;     /* left right only */
+
+    }
+
+    div{
+        /* background-color: lime; */
+        border: 2px solid black;
+        height: 100px;   /* not applied */
+        width: 200px;     /* not applied */
+        padding: 50px;   /* left right only */ 
+        margin: 20px;     /* left right only */
+    }
