@@ -1,0 +1,44 @@
+/* Q1 */
+
+/* #container {
+    height: 400px;
+    width: 400px;
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 50px;
+    text-align: center;
+} */
+
+/* Q2 */
+
+#navbar {
+    height: 50px;
+    width: 900px;
+    border: 2px solid lightseagreen;
+    background-color: pink;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.option {
+    height: 50px;
+    width: 80px;
+    margin-left: 5px;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+
