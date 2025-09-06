@@ -62,12 +62,12 @@
 //     }
 // }
 
-let num1 = 32;
-let num2 = 47852;
+// let num1 = 32;
+// let num2 = 47852;
 
-if ((num1 % 10) == (num2 % 10)) {
-    console.log("numbershavethesamelastdigitwhichis",num1%10)
-}
-else {
-    console.log("numbersdon'thavethesamelastdigit");
-}
+// if ((num1 % 10) == (num2 % 10)) {
+//     console.log("numbershavethesamelastdigitwhichis",num1%10)
+// }
+// else {
+//     console.log("numbersdon'thavethesamelastdigit");
+// }
