@@ -167,14 +167,38 @@
 
 
 // Random integers
+//  1 - 10 Range
 
+// let num = Math.random();
+// num = num * 10;
+// num = Math.floor(num);
+// num = num + 1;
+// console.log(num);
+
+// OR
+
+// console.log((Math.floor((Math.random())*10)) + 1);
 
 
 
 // guessing game
 
+const max = prompt("enter the max number");
+random = Math.floor(Math.random() * max) + 1;
+let guess = prompt("guess the number");
 
-
-
-
-
+while (true) {
+    if(guess == "quit") {
+        console.log("user quit");
+    }
+    if (guess == random) {
+        console.log("you are right! congrats!! random no. was", random);
+        break;
+    }
+    else if (guess < random) {
+        guess = prompt("Hint: your guess was too small. Please try agan!");
+    }
+    else {
+        guess = prompt("Hint:  your guess was too large. Please try agan!");
+    }
+}
