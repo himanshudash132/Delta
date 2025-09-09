@@ -123,26 +123,72 @@ function outerFunc() {
 // outerFunc();
 
 // fuunctions expresions
-const sum = function(a, b) {
-    return a + b;
-}
+// const sum = function(a, b) {
+//     return a + b;
+// }
 
-let hello = function() {
-    console.log("hello");
-}
+// let hello = function() {
+//     console.log("hello");
+// }
 
-console.log(sum(2, 3));
-console.log(hello());
+// console.log(sum(2, 3));
+// console.log(hello());
 
 
 // Higher Order Functions
+// function multipleGreet(func, n) {     // Higher Order Functions
+//     for( let i = 1; i <= n; i++) {
+//         func();
+//     }
+// }
 
-
-
+// let greet = function() {
+//     console.log("hello");
+// }
+// multipleGreet(greet, 40);
 
 // Higher Order Functions (Returns)
+// function oddEvenTest(request) {
+//     if(request == "odd") {
+//         return function(n) {
+//             console.log(!(n % 2 == 0));
+//         }
+//     }
+//     else if(request == "even") {
+//         return function(n) {
+//             console.log(n % 2 == 0);
+//         }
+//     }
+//     else {
+//         console.log("wrong request");
+//     }
+// }
 
 
-
+// let func = oddEvenTest("odd");
+// console.log(func(3));
+// let func = oddEvenTest("even");
+// console.log(func(2));
 
 // Methods
+const calsulator = {
+    num: 55,
+    add: function(a, b) {
+        return a + b;
+    },
+    sub: function(a, b) {
+        return a - b;
+    },
+    mul: function(a, b) {
+        return a * b;
+    }
+}
+
+console.log(calsulator);
+console.log(calsulator.num);
+console.log(calsulator.add);
+console.log(calsulator.add(2,2));
+console.log(calsulator.sub);
+console.log(calsulator.sub(2,2));
+console.log(calsulator.mul);
+console.log(calsulator.mul(2,2));
